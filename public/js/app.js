@@ -89,7 +89,7 @@ const addPost = async function() {
     generateRandomCatChatPhrase()
   ])
   .then(function(resultsArray) {
-    [robotThumb, catThumb, catChatPhrase] = resultsArray;
+    const [robotThumb, catThumb, catChatPhrase] = resultsArray;
     //　上の行はこの書き方の略、意味的に同じです：
     // const robotThumb = resultsArray[0];
     // const catThumb = resultsArray[1];
